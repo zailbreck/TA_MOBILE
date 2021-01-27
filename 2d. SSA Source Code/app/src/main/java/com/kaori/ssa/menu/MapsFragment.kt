@@ -81,7 +81,6 @@ class MapsFragment : Fragment(),
         super.onPause()
         mMapView.onPause()
     }
-
     override fun onDestroy() {
         super.onDestroy()
         mMapView.onDestroy()

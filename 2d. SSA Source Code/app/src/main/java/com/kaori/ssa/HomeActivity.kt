@@ -59,7 +59,8 @@ class HomeActivity : AppCompatActivity() {
     private fun isJSONValid(str: String) : Boolean{
         try{
             JSONObject(str)
-        }catch (e: JSONException){
+        }
+        catch (e: JSONException){
             try{
                 JSONArray(str)
             }catch (ex: JSONException){
@@ -90,7 +91,8 @@ class HomeActivity : AppCompatActivity() {
                 tutorials.forEach {
                     mapLogList.add(MapLog(it.lat, it.lng, it.rad, it.title, it.icon))
                 }
-            }else{
+            }
+            else{
                 errorResult = "DataFailed"
             }
         }catch (e: SocketTimeoutException){
@@ -125,7 +127,8 @@ class HomeActivity : AppCompatActivity() {
                             )
                         )
                     }
-                }else{
+                }
+                else{
                     errorResult = "DataFailed"
                 }
             }

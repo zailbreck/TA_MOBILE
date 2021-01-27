@@ -98,7 +98,8 @@ class LoginActivity : AppCompatActivity() {
                     Snackbar.make(window.decorView.rootView, "Proses Login ...\nHarap Tunggu!", Snackbar.LENGTH_LONG).show()
                     if (task.isSuccessful) {
                         checkSessions()
-                    } else {
+                    }
+                    else {
                         Snackbar.make(window.decorView.rootView, "Proses Login Gagal!", Snackbar.LENGTH_LONG).show()
                     }
                 }
@@ -126,7 +127,8 @@ class LoginActivity : AppCompatActivity() {
         auth.signInWithCredential(credential).addOnCompleteListener {
             if (it.isSuccessful) {
                 startActivity<HomeActivity>()
-            } else {
+            }
+            else {
                 Toast.makeText(this, "Metode Login Google Gagal :'v", Toast.LENGTH_LONG).show()
             }
         }
@@ -166,7 +168,9 @@ class LoginActivity : AppCompatActivity() {
                 arrayOf(Manifest.permission.ACCESS_COARSE_LOCATION),
                 1
             )
-        }else{
+        }
+        
+        else{
             ActivityCompat.requestPermissions(
                 this,
                 arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "19228362833",
+    "project_id": "smart-students-assistant",
+    "storage_bucket": "smart-students-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19228362833:android:f5b9de8608ecc3e85d9070",
+        "android_client_info": {
+          "package_name": "com.kaori.ssa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19228362833-5n1kjrr4iu4innqje5200cua8v4i7gku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlGHobQ1RJMyP702h6ED1iQx0qQ3sHyPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19228362833-5n1kjrr4iu4innqje5200cua8v4i7gku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

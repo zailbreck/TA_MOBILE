@@ -32,7 +32,7 @@ class FragmentD : Fragment() {
 
         return view
     }
-
+        
     private fun onConfigureFinished(){
         val sharedPref = requireActivity().getSharedPreferences("onConfigure", Context.MODE_PRIVATE)
         val editor = sharedPref.edit()

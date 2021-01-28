@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#fdfdfd"
     tools:context=".splash.FragmentB">
-
+ 
     <TextView
         android:id="@+id/back"
         android:layout_width="0dp"
@@ -60,6 +60,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.096" />
+  
 
     <TextView
         android:id="@+id/textView2"

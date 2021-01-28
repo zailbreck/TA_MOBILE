@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "455161045897",
+    "firebase_url": "https://m-ssa-ee17c-default-rtdb.firebaseio.com",
+    "project_id": "m-ssa-ee17c",
+    "storage_bucket": "m-ssa-ee17c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455161045897:android:50c73885849a5c3d8a3758",
+        "android_client_info": {
+          "package_name": "com.kaorimaps.ssa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455161045897-e31m0i144mt9q7uj1f2ojel0glpag3ef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaorimaps.ssa",
+            "certificate_hash": "b6495e5882dba695021c953aa77950f0b4233fb7"
+          }
+        },
+        {
+          "client_id": "455161045897-28olqidmq0gdhskv07qkgi9og5gte1eg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2fdFiKw-mhyoIz8zc60Tx1QwOg0pB4L0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455161045897-28olqidmq0gdhskv07qkgi9og5gte1eg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

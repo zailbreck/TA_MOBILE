@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SSA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ic_pins">IC_Pins</string>
+    <string name="next">NEXT</string>
+    <string name="back">BACK</string>
+    <string name="peta">PETA</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="web_client_id">455161045897-e31m0i144mt9q7uj1f2ojel0glpag3ef.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">430121261521463</string>
+    <string name="google_maps_key">AIzaSyA2fdFiKw-mhyoIz8zc60Tx1QwOg0pB4L0</string>
+
+</resources>
